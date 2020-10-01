@@ -15,5 +15,107 @@ html { box-sizing: border-box; }
 
 
 body {
+    color: #bdc3c7;
     background-color: #bdc3c7;
+    margin: 0;
+    padding: 0;
 }
+
+main {
+    width: 250px;
+    background-color: #31363b;
+    margin: 3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.7) 2px 1px 10px
+}
+
+.foto {
+    position: relative;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    left: 205px;
+    top: 190px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.obsah {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #3f464d;
+}
+
+.jmeno,
+.odkazy {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.portfolio,
+.facebook,
+.twitter {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.odkazy {
+    padding: 0;
+    margin: 0;
+}
+
+.odkazy a{
+    display: inline-block;
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+.portfolio a{
+    padding: 15px 55px;
+    border-bottom: 1px solid #3f464d;
+   }
+
+.facebook a{
+    padding: 15px 20px;
+    border-right: 1px solid #3f464d;
+    margin: 0;
+}
+
+.twitter a{
+    padding: 15px 20px;
+}
+
+.portfolio a:hover,
+.portfolio a:focus, 
+.portfolio a:active{
+    background-color:#e74c3c;
+    color: whitesmoke;
+}
+
+.facebook a:hover,
+.facebook a:focus, 
+.facebook a:active{
+    background-color:#3b5998;
+    color: whitesmoke;
+}
+
+.twitter a:hover,
+.twitter a:focus, 
+.twitter a:active{
+    background-color: #1da1f2;
+    color: whitesmoke;
+}
+
+
