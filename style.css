@@ -2,34 +2,33 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*
- BARVY
- czechitas  #b92e81
- pozadi     #bdc3c7
- tmava      #31363b
- delitka    #3f464d
- portfolio  #e74c3c
- facebook   #3b5998
- twitter    #1da1f2
-*/
 
 
 body {
     color: #bdc3c7;
     background-color: #bdc3c7;
-    margin: 0;
-    padding: 0;
+    margin: 3rem 0 0 2rem;
 }
 
-main {
+.obsah {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+img {
+    display: block;
+}
+
+.profil{
+    background-color:#31363b;
     width: 250px;
-    background-color: #31363b;
-    margin: 3rem 2rem;
     box-shadow: rgba(0, 0, 0, 0.7) 2px 1px 10px
 }
 
 .foto {
     position: relative;
+    width: 250px;
 }
 
 .logo {
@@ -38,8 +37,6 @@ main {
     position: absolute;
     left: 205px;
     top: 190px;
-    width: 50px;
-    height: 50px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -47,14 +44,19 @@ h1 {
     font-size: 25px;
     color: whitesmoke;
     text-align: left;
+    padding: 0 1rem;  
 }
 
-.obsah {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-    text-align: left;
-    padding: 15px;
-    border-bottom: 1px solid #3f464d;
+p{
+    padding: 0 1rem;  
+}
+
+
+.odkazy {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 0;
 }
 
 .jmeno,
@@ -62,46 +64,45 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .portfolio,
 .facebook,
 .twitter {
     display: inline-block;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
-}
-
-.odkazy {
-    padding: 0;
-    margin: 0;
 }
 
 .odkazy a{
     display: inline-block;
     color: #bdc3c7;
     text-decoration: none;
-}
-
-.portfolio a{
-    padding: 15px 55px;
-    border-bottom: 1px solid #3f464d;
-   }
-
-.facebook a{
-    padding: 15px 20px;
-    border-right: 1px solid #3f464d;
+    padding: 1rem;
+    text-transform: uppercase;
     margin: 0;
 }
 
-.twitter a{
-    padding: 15px 20px;
+.portfolio{
+    border-bottom: 1px solid #3f464d;
+    border-top: 1px solid #3f464d;;
+    width: 100%;
+   }
+
+.facebook{
+    border-right: 1px solid #3f464d;
+    width: 50%;
 }
+
+.twitter {
+    width: 50%;
+}
+
 
 .portfolio a:hover,
 .portfolio a:focus, 
 .portfolio a:active{
     background-color:#e74c3c;
     color: whitesmoke;
+    width: 100%;
 }
 
 .facebook a:hover,
@@ -109,6 +110,7 @@ h1 {
 .facebook a:active{
     background-color:#3b5998;
     color: whitesmoke;
+    width: 100%;
 }
 
 .twitter a:hover,
@@ -116,6 +118,7 @@ h1 {
 .twitter a:active{
     background-color: #1da1f2;
     color: whitesmoke;
+    width: 100%;
 }
 
 
