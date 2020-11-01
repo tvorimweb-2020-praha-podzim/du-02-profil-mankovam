@@ -27,16 +27,19 @@ img {
 }
 
 .foto {
-    position: relative;
     width: 250px;
+}
+
+.hlavicka {
+    position: relative;
 }
 
 .logo {
     background-color: #b92e81;
     border-radius: 50%;
     position: absolute;
-    left: 205px;
-    top: 190px;
+    left: 175px;
+    top: 140px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -73,7 +76,7 @@ p{
 }
 
 .odkazy a{
-    display: inline-block;
+    display: block;
     color: #bdc3c7;
     text-decoration: none;
     padding: 1rem;
